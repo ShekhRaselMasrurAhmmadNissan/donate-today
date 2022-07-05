@@ -17,6 +17,10 @@ p {
 	padding-bottom: 30px;
 }
 
+section {
+	margin-bottom: 50px;
+}
+
 #heading {
 	background: linear-gradient(rgba(28, 24, 24, 0.725) 100%, rgba(39, 31, 31, 0.533) 100%), url(../images/donation8.jpg);
 	background-repeat: no-repeat;
