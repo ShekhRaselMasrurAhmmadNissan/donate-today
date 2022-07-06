@@ -79,13 +79,13 @@ p {
 	border: 1px solid transparent;
 	border-collapse: separate;
 	border-radius: 5px;
+	background-color: rgba(250, 250, 250, 1);
 }
 
 h3 {
 	text-align: center;
 	font-size: 25px;
-	padding: 50px 15px;
-	background-color: rgba(250, 250, 250, 1);
+	padding: 20px 15px;
 }
 
 .selected {
@@ -147,4 +147,47 @@ h4 {
 }
 #education {
 	background-color: rgba(255, 244, 214, 1);
+}
+
+.flexible-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.half-width {
+	width: 40%;
+	margin-bottom: 50px;
+}
+.half-width>h2,
+.half-width>p {
+	width: 90%;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.half-width>p {
+	padding-bottom: 50px;
+}
+.half-width > .button {
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.half-width > img {
+	width: 90%;
+	height: 500px;
+}
+
+#donation-information {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #f08a1df9;
+}
+
+.information {
+	width: 16%;
+	height: 180px;
+	background-color: #F08B1D;
+	border: 0 2px 0 2px;
 }
