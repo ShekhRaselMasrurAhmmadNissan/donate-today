@@ -129,7 +129,6 @@ h3 {
 .plan > h4, .plan > p {
 	width: 90%;
 	margin-left: 20px;
-	/* padding-right: 20px; */
 	margin-bottom: 20px;
 	text-align: left;
 }
@@ -178,7 +177,7 @@ h4 {
 	height: 500px;
 }
 
-#donation-information {
+#flexible-information {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -190,4 +189,42 @@ h4 {
 	height: 180px;
 	background-color: #F08B1D;
 	border: 0 2px 0 2px;
+	color: white;
+}
+
+#contact-information {
+	width: 50%;
+	height: 180px;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: rgba(255, 244, 214, 1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#email {
+	background-color: rgba(217, 217, 217, 1);
+	width: 40%;
+	height: 40px;
+	margin: 0;
+	border: none;
+	border-radius: 10px;
+	font-size: 18px;
+}
+
+#contact-information > .button {
+	margin: 0;
+}
+
+footer {
+	font-family: 'Stylish', sans-serif;
+	background-color: #000;
+	color: white;
+	margin: 0;
+	width: 100%;
+}
+
+footer > h2 {
+	font-size: 30px;
 }
