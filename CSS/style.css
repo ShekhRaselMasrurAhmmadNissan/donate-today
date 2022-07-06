@@ -99,3 +99,41 @@ h3 {
 #donate-today > .button {
 	margin-left: 45%;
 }
+
+#plan-information {
+	margin-top: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.plan {
+	width: 20%;
+}
+
+.plan > img {
+	margin: 20px;
+}
+
+.plan > h4, .plan > p {
+	width: 90%;
+	margin-left: 20px;
+	/* padding-right: 20px; */
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+h4 {
+	font-size: 22px;
+	color: rgba(158, 12, 237, 0.937);
+}
+
+#food {
+	background-color: rgba(79, 157, 166, 0.1);
+}
+#shelter {
+	background-color: rgba(255, 89, 89, 0.1);
+}
+#education {
+	background-color: rgba(255, 244, 214, 1);
+}
