@@ -100,6 +100,10 @@ h3 {
 	color: #FF5959;
 }
 
+ul {
+	list-style: none;
+}
+
 #custom-amount {
 	color: #B3B3B3;
 	width: 60%;
@@ -111,7 +115,8 @@ h3 {
 	border-color: #dadada;
 }
 
-#donate-today > .button {
+#donate-today > form > .button {
+	border-color: transparent;
 	margin-left: 45%;
 }
 
@@ -220,6 +225,7 @@ h4 {
 }
 
 #contact-information > .button {
+	border: none;
 	margin: 0;
 }
 
